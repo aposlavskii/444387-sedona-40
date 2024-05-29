@@ -2,6 +2,7 @@
 
 * Студент: [Александр Пославский](https://up.htmlacademy.ru/htmlcss/40/user/444387).
 * Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena).
+* Сайт: [Мой проект седона](https://aposlavskii.github.io/444387-sedona-40).
 
 ---
 
