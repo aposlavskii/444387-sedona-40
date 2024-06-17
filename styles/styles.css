@@ -58,6 +58,7 @@ h3 {
   background-color: #756157;
   color: #ffffff;
   text-transform: uppercase;
+  font-family: inherit;
 }
 
 .main-nav-link {
@@ -138,6 +139,7 @@ h3 {
 
 .subscribe-input {
   background-color: #f2f2f2;
+  font-family: inherit;
   font-size: 18px;
   line-height: 24px;
   color: #000000;
@@ -146,6 +148,7 @@ h3 {
 .subscribe-btn {
   background-color: #82b3d3;
   color: #ffffff;
+  font-family: inherit;
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
@@ -173,6 +176,8 @@ h3 {
 }
 
 .breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
   color: #ffffff;
   text-decoration: none;
 }
@@ -189,6 +194,13 @@ h3 {
   line-height: 23px;
 }
 
+.filter-cost-input {
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
 .filter-submit {
   font-size: 16px;
   line-height: 20px;
@@ -203,6 +215,7 @@ h3 {
 
 .catalog-select {
   font-size: 18px;
+  font-family: inherit;
   line-height: 21px;
   text-align: left;
 }
