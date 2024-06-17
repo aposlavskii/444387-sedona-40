@@ -23,14 +23,14 @@ body {
   background-color: #ffffff;
 }
 
-h1 {
+.title-h1 {
   font-size: 60px;
   font-weight: 700;
   line-height: 78px;
   text-transform: capitalize;
 }
 
-h2 {
+.title-h2 {
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -38,7 +38,7 @@ h2 {
   text-transform: uppercase;
 }
 
-h3 {
+.title-h3 {
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
