@@ -1,0 +1,270 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  background-color: #756157;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.main-nav-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.favorites-count {
+  background-color: #7db54f;
+  font-size: 10px;
+  line-height: 10px;
+  color: #ffffff;
+}
+
+.want-link {
+  background-color: #756157;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.hero {
+  background-image: url(../images/mountains-divider.svg),
+    url(../images/mountains-background.jpg);
+  background-position: center bottom, left top;
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+  text-align: center;
+}
+
+.advantages-item {
+  background-color: #83b3d31f;
+}
+
+.advantages-item-full {
+  background-color: #82b3d3;
+  color: #ffffff;
+}
+
+.advantages-item-dark {
+  background-color: #83b3d333;
+}
+
+.advantages-description {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.advices-description {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.search {
+  text-align: center;
+}
+
+.subscribe {
+  background-image: url(../images/blur-mountains-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.subscribe-form {
+  text-align: center;
+}
+
+.subscribe-input {
+  background-color: #f2f2f2;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.subscribe-btn {
+  background-color: #82b3d3;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+
+.main-catalog-wrapper {
+  background-image: url(../images/blur-mountains-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.main-catalog-header {
+  text-align: left;
+}
+
+.breadcrumbs-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.filter-legend {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.filter-label {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.filter-submit {
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #82b3d3;
+}
+
+.filter-reset {
+  font-size: 16px;
+  line-height: 20px;
+  background-color: unset;
+}
+
+.catalog-select {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+}
+
+.catalog-card {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.catalog-card-title {
+  color: #000000;
+}
+
+.catalog-card-type,
+.catalog-card-cost {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.catalog-card-link {
+  background-color: #756157;
+  text-decoration: none;
+}
+
+.add-to-favorite {
+  background-color: #82b3d3;
+}
+
+.add-to-favorite.added {
+  background-color: #7db54f;
+}
+
+.catalog-card-rate {
+  background-color: #f2f2f2;
+  text-transform: uppercase;
+}
+
+.pagination-item {
+  background-color: #82b3d3;
+  color: #ffffff;
+}
+
+.pagination-dotted {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.pagination-current {
+  background-color: #f2f2f2;
+  color: #000;
+}
+
+.pagination-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.subscribe-nobg {
+  background: #ffffff;
+  color: #333333;
+}
